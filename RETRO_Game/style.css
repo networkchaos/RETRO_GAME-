@@ -1,0 +1,246 @@
+
+body{
+    padding: o;
+    margin: 0;
+    background-color: rgb(108, 96, 96);
+    font-family: 'Kavoon', cursive;
+    box-sizing: border-box;
+}
+/***
+.wrapper{
+position: fixed;
+inset: 0;
+z-index: 9999;
+background-color: rgb(123, 116, 124);
+display: grid;
+place-items: center;
+transition: 80s;
+opacity: 0.25s;
+visibility :1s;
+
+
+
+
+}
+.fade{
+opacity: 0;
+visibility: hidden;
+
+}
+***/
+
+
+div {
+    display: block;
+}
+/*
+div[Attributes Style] {
+    -webkit-user-drag: none;
+}
+*/
+
+h1{
+    margin-top: 40px;
+font-size: 50px ;
+color: rgb(205, 28, 250);
+text-align: center;
+font-weight: bold;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+border: none;
+
+
+
+}
+
+
+
+.container_btn{
+    display: flex;
+    flex-direction: column;
+width: 300px;
+height: 660px;
+border:1px solid  rgb(48, 43, 43);
+margin-left: 40px;
+background-color:  rgb(48, 43, 43);
+border-radius: 10px;
+
+}
+
+
+.container_sketch{
+
+    margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 660px;
+        height: 660px;
+        background-color: #202020;
+        border-radius: 4px;
+
+
+}
+.container_sketch .grid-container toggle-grid{
+
+    width: 650px;
+    height: 650px;
+    border:1px solid  grey;
+  margin: auto;
+    background-color:  white;
+    border-radius: 5px;
+
+}
+
+.color-box{
+    height: 36px;
+overflow: hidden;
+border-radius: 2px;
+border: 1px solid rgb(205, 28, 250);
+width: 35%;
+margin-bottom: 10px;
+
+
+
+}
+.color_card{
+    font-size: 14px;
+    font-weight: 50px; 
+font-family:'Kavoon', cursive ;
+color: rgb(205, 28, 250);
+display: flex;
+
+}
+
+
+input[type="color"]{
+display: block;
+outline:none;
+border:none;
+background-color: white;
+border-radius: 2px;
+width:200px;
+height: 200%;
+transform: translateX(-10px) translateY(-10px);
+
+}
+
+.color_card span{
+    margin-left:10px;
+    position: right;
+margin-top: 10px;
+left:88px;
+
+}
+.color_card-cc2{
+    font-size: 14px;
+    font-weight: 50px; 
+font-family:'Kavoon', cursive ;
+color: rgb(205, 28, 250);
+display: flex;
+
+}
+
+.color_card-cc2 span{
+    margin-left:10px;
+    position: right;
+margin-top: 10px;
+left:88px;
+
+}
+button{
+display: block;
+color: rgb(205, 28, 250);
+font-weight: 500px;
+font-family: 'Kavoon' cursive;
+background-color: blue;
+border-radius: 2px;
+padding-left: 15px;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-right: 15px;
+border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(115, 124, 133);
+    border-right-color: rgb(121, 132, 141);
+    border-bottom-color: rgb(98, 104, 109);
+    border-left-color: rgb(104, 109, 114);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+outline: none;
+justify-content: space-between;
+width: 90%;
+margin-bottom: 10px;
+margin-left: 20px;
+margin-right: 20px;
+cursor: pointer;
+transition: .2s;
+margin-top: 15px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.slider-box {
+    position: relative;
+    width: 100%;
+}
+.slider-box {
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.grid-size {
+    font-family: 'Kavoon', cursive;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(205, 28, 250);
+    text-align: center;
+    margin-bottom: 10px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+element.style {
+    background-color: rgb(46, 10, 10);
+    grid-template-columns: repeat(20, 26.087px) 1fr 1fr 1fr;
+    grid-template-rows: repeat(20, 26.087px) 1fr 1fr 1fr;
+}
+.border-top-left {
+    border-top: 1px solid rgb(156, 156, 156);
+    border-left: 1px solid rgb(156, 156, 156);
+}
+
+.grid-item {
+    /* background-color: rgb(255, 255, 255); */
+    user-select: none;
+}
+
+element.style {
+    background-color: rgb(0, 255, 187);
+}
+
+
+.border-right {
+    border-right: 1px solid rgb(156, 156, 156);
+}
+
+
